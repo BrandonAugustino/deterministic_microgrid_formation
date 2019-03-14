@@ -5,7 +5,7 @@ This repository contains Python scripts for the microgrid formation optimization
 
 https://www.gurobi.com/documentation/8.1/quickstart_mac/the_gurobi_python_interfac.html
 
-2) "ieee30_s5_python.dat" A data file corresponding to the IEEE 30-Bus sytem. This system has a radial topology and to solve this instance, one should ensure that the data is loaded (around line 8) as follows:
+2) "ieee30_s5_python.dat" A data file corresponding to the IEEE 30-Bus sytem. This system has a mesh topology and to solve this instance, one should ensure that the data is loaded (around line 8) as follows:
 
 file = open("../resil/ieee30_s5_python.dat","r")
 
