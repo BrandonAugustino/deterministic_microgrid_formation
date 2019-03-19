@@ -1,5 +1,5 @@
-# microgrid_formation
-This repository contains Python scripts for the microgrid formation optimization problem presented in "Allocation of Resources Using a Microgrid Formation Approach for Resilient Electric Grids" by Kwami S. A. Sedzro, Alberto J. Lamadrid and Luis F. Zuluaga. Currently there are 3 files in the repository. 
+# deterministic_microgrid_formation
+This repository contains Python scripts for the deterministic microgrid formation optimization problem presented in "Allocation of Resources Using a Microgrid Formation Approach for Resilient Electric Grids" by Kwami S. A. Sedzro, Alberto J. Lamadrid and Luis F. Zuluaga. Currently there are 3 files in the repository. 
 
 1) "model_total_new.py" A python script which solves the MILP as presented in the paper. The model is constructed and solved using the gurobipy module, thus in order to execute the script one must (i) Ensure that gurobi is installed on the computer they are using to run the code (ii) Install gurobipy: 
 
